@@ -13,5 +13,11 @@ public class EmployeeController {
 		  System.out.println("hello spring");
 		  return "Hi I am spring boot";
 	  }
+	  
+	  
+	  public void m1() {
+		  
+		  System.out.println("executing the stash command");
+	  }
 
 }
