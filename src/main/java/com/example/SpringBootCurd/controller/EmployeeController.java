@@ -10,6 +10,7 @@ public class EmployeeController {
 	
 	  @GetMapping("/mesg")
 	  public String getMeaasage() {
+		  System.out.println("hello spring");
 		  return "Hi I am spring boot";
 	  }
 
